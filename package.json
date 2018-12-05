@@ -2,6 +2,10 @@
   "name": "js-deli-counter",
   "version": "0.1.0",
   "description": "Practice with loops, arrays, and functions in JavaScript on Learn",
+<<<<<<< HEAD
+  "main": "index.js",
+  "scripts": {
+=======
   "engines": {
     "node": "6.x",
     "npm": "3.x"
@@ -10,6 +14,7 @@
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
+>>>>>>> 0f31bdc8deb0682c955c904f0c85eff26e73b126
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
@@ -33,7 +38,11 @@
     "expect": "^1.20.2",
     "jsdom": "^9.4.1",
     "mocha": "^2.5.3",
+<<<<<<< HEAD
+    "mocha-multi": "^0.9.0"
+=======
     "mocha-multi": "^0.9.0",
     "node-inspector": "^0.12.8"
+>>>>>>> 0f31bdc8deb0682c955c904f0c85eff26e73b126
   }
 }
